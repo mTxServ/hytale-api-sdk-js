@@ -116,9 +116,9 @@ var HytaleApi = require('hytale-api-sdk');
 
 var apiInstance = new HytaleApi.ArticlesApi();
 
-var year = 56; // Number | Year (ex: 2019)
+var year = 2018; // Number | Year (ex: 2019)
 
-var month = 56; // Number | Month (ex: 01)
+var month = 12; // Number | Month (ex: 01)
 
 
 var callback = function(error, data, response) {

@@ -19,7 +19,7 @@ Get list of articles published
 
 ### Example
 ```javascript
-var HytaleApi = require('hytale_api');
+var HytaleApi = require('hytale-api-sdk');
 
 var apiInstance = new HytaleApi.ArticlesApi();
 
@@ -65,7 +65,7 @@ Get list of articles published
 
 ### Example
 ```javascript
-var HytaleApi = require('hytale_api');
+var HytaleApi = require('hytale-api-sdk');
 
 var apiInstance = new HytaleApi.ArticlesApi();
 
@@ -112,7 +112,7 @@ Get list of articles published on a specific month of an year
 
 ### Example
 ```javascript
-var HytaleApi = require('hytale_api');
+var HytaleApi = require('hytale-api-sdk');
 
 var apiInstance = new HytaleApi.ArticlesApi();
 

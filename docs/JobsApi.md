@@ -17,7 +17,7 @@ Get list of jobs
 
 ### Example
 ```javascript
-var HytaleApi = require('hytale_api');
+var HytaleApi = require('hytale-api-sdk');
 
 var apiInstance = new HytaleApi.JobsApi();
 

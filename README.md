@@ -52,22 +52,22 @@ module: {
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var HytaleApi = require('hytale_api');
-
-var api = new HytaleApi.ArticlesApi()
-
+var HytaleApi = require('hytale-api-sdk');
+ 
+var api = new HytaleApi.ArticlesApi();
+ 
 var slug = "creating-creature-sounds-for-hytale"; // {String} Slug of article
-
+ 
 var callback = function(error, data, response) {
   if (error) {
     console.error(error);
   } else {
-    console.log('API called successfully. Returned data: ' + data);
+    console.log('API called successfully');
+    console.log(data);
   }
 };
-
+ 
 api.getArticleBySlug(slug, callback);
-
 ```
 
 ## Documentation for API Endpoints

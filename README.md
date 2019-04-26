@@ -10,41 +10,14 @@ For more information, please visit [https://hytale.game](https://hytale.game)
 
 #### npm
 
-To publish the library as a [npm](https://www.npmjs.com/),
-please follow the procedure in ["Publishing npm packages"](https://docs.npmjs.com/getting-started/publishing-npm-packages).
-
 Then install it via:
 
 ```shell
 npm install hytale-api-sdk --save
 ```
 
-##### Local development
-
-To use the library locally without publishing to a remote npm registry, first install the dependencies by changing 
-into the directory containing `package.json` (and this README). Let's call this `JAVASCRIPT_CLIENT_DIR`. Then run:
-
-```shell
-npm install
-```
-
-Next, [link](https://docs.npmjs.com/cli/link) it globally in npm with the following, also from `JAVASCRIPT_CLIENT_DIR`:
-
-```shell
-npm link
-```
-
-Finally, switch to the directory you want to use your hytale_api from, and run:
-
-```shell
-npm link /path/to/<JAVASCRIPT_CLIENT_DIR>
-```
-
-You should now be able to `require('hytale_api')` in javascript files from the directory you ran the last 
-command above from.
-
 #### git
-#
+
 If the library is hosted at a git repository, e.g.
 https://github.com/YOUR_USERNAME/hytale_api
 then install it via:
@@ -93,7 +66,7 @@ var HytaleApi = require('hytale_api');
 
 var api = new HytaleApi.ArticlesApi()
 
-var slug = "slug_example"; // {String} Slug of article
+var slug = "creating-creature-sounds-for-hytale"; // {String} Slug of article
 
 
 var callback = function(error, data, response) {

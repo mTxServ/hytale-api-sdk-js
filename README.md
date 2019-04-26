@@ -1,4 +1,4 @@
-# Hytale API - Javascript SDK
+# Hytale API - Node.js Javascript SDK
 
 Hytale Api - JavaScript client for Hytale Official API
 

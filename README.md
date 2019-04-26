@@ -16,16 +16,6 @@ Then install it via:
 npm install hytale-api-sdk --save
 ```
 
-#### git
-
-If the library is hosted at a git repository, e.g.
-https://github.com/YOUR_USERNAME/hytale_api
-then install it via:
-
-```shell
-    npm install YOUR_USERNAME/hytale_api --save
-```
-
 ### For browser
 
 The library also works in the browser environment via npm and [browserify](http://browserify.org/). After following
@@ -68,7 +58,6 @@ var api = new HytaleApi.ArticlesApi()
 
 var slug = "creating-creature-sounds-for-hytale"; // {String} Slug of article
 
-
 var callback = function(error, data, response) {
   if (error) {
     console.error(error);
@@ -76,6 +65,7 @@ var callback = function(error, data, response) {
     console.log('API called successfully. Returned data: ' + data);
   }
 };
+
 api.getArticleBySlug(slug, callback);
 
 ```
@@ -102,4 +92,3 @@ Class | Method | HTTP request | Description
 ## Documentation for Authorization
 
  All endpoints do not require authorization.
-

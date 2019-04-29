@@ -7,7 +7,7 @@ With this SDK, you can consume the official Hytale API in Node.js (javascript).
 
 # Demo projects
 
-This SDK is used in the `Hytale Bot Discord` project which is an example implementation of a bot which allow user to show latest 3 blogpost from official Hytale website. [See example](https://github.com/mTxServ/hytale-bot-discord)
+This SDK is used in the `Hytale Bot Discord` project which is an example implementation of a bot which allow user to show latest 3 blogposts from official Hytale website. [See example](https://github.com/mTxServ/hytale-bot-discord)
 
 ## Installation
 

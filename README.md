@@ -2,7 +2,8 @@
 
 Hytale Api - JavaScript client for Hytale Official API
 
-For more information, please visit [https://hytale.game](https://hytale.game)
+Created by [mTxServ](https://mtxserv.com) and [Hytale.game](https://hytale.game).
+With this SDK, you can consume the official Hytale API in Node.js (javascript).
 
 ## Installation
 
